@@ -1,0 +1,12 @@
+<list>
+    <button name='Start Probing' event='e_start_probe' tooltip='start the probing routine'/>
+    <button name='Stop Probing' event='e_probe_done' tooltip='Force the probing routine to halt'/>
+    e_probe_done
+    <button name='Start Admittance Mode' event='start_admittance' tooltip='Robot can be moved with the force sensor'/>
+    <button name='Stop Admittance Mode' event='stop_admittance' tooltip='Stop Admittance'/>
+    <button name='Update Central Pose' event='c_update_middle_probe_pose' tooltip='To be used only while in admittance mode'/>
+    <button name='Update Pose 1' event='c_update_end_probe_pose_1' tooltip='To be used only while in admittance mode'/>
+    <button name='Update Pose 2' event='c_update_end_probe_pose_2' tooltip='To be used only while in admittance mode'/>
+    <button name='Update Pose 3' event='c_update_end_probe_pose_3' tooltip='To be used only while in admittance mode'/>
+    <button name='Update Pose 4' event='c_update_end_probe_pose_4' tooltip='To be used only while in admittance mode'/>
+</list>

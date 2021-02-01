@@ -1,0 +1,546 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.9.2' compiled with GCC 5.4.0. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 1612171349210098685 ticks ( 1.61217e+09 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /opt/ros/kinetic/lib/orocos:/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos:/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/etasl-rtt/devel/lib/orocos . Searching in: /opt/ros/kinetic/lib/orocos:/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos:/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/etasl-rtt/devel/lib/orocos
+0.001 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.001 [ Info   ][Logger] Loading plugin libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/./plugins ...
+0.001 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.001 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.001 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.001 [ Info   ][Logger] Loading typekit libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/./types ...
+0.009 [ Info   ][TypekitRepository::Import] Loading Transport CORBA://rtt-types.
+0.009 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-corba-types' from 'rtt-transport-corba'
+0.010 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+0.010 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+0.024 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for int
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for uint
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for llong
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for llong
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for ullong
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for ullong
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for double
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for float
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for char
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for bool
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for void
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for ConnPolicy
+0.026 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for TaskContext
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for string
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for array
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+0.027 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for rt_string
+0.027 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+0.027 [ Info   ][Logger] RTT_COMPONENT_PATH was set to: /opt/ros/kinetic/lib/orocos:/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos:/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/etasl-rtt/devel/lib/orocos . Searching in: /opt/ros/kinetic/lib/orocos:/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos:/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/etasl-rtt/devel/lib/orocos
+0.027 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='lua'
+0.027 [ Info   ][lua] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10943 ).
+0.028 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Deployer'
+0.028 [ Info   ][Deployer] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10944 ).
+0.028 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] No site file was found. Importing 'ocl' by default.
+0.029 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/kinetic/lib/orocos/gnulinux/ocl ...
+0.029 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaTLSFComponent'
+0.038 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/kinetic/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-netcdf-gnulinux.so'
+0.038 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::NetcdfReporting'
+0.039 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/kinetic/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+0.040 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/kinetic/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+0.041 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::HelloWorld'
+0.041 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/kinetic/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+0.041 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'OCL::LuaComponent'
+0.042 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/opt/ros/kinetic/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+0.042 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/ocl/types ...
+0.044 [ Info   ][TypekitRepository::Import] Loading Typekit OCLTypekit.
+0.045 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'OCLTypekit' from 'ocl'
+0.045 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/ocl/plugins ...
+0.045 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'Lua' from 'rttlua-plugin'
+0.046 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'os' from 'os'
+0.047 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'LuaTLSF' from 'rttlua-tlsf-plugin'
+0.047 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'print' from 'print'
+0.050 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_ros ...
+0.050 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_ros/types ...
+0.075 [ Info   ][TypekitRepository::Import] Loading Typekit ros-primitives.
+0.080 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'ros-primitives' from 'rtt-ros-primitives-typekit'
+0.080 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_ros/plugins ...
+0.082 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'ros' from 'rtt_ros_service'
+0.098 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_rosnode ...
+0.098 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_rosnode/plugins ...
+0.104 [ Info   ][ComponentLoader::import(path_list)] Initializing ROS node in Orocos plugin...
+0.108 [ Info   ][ComponentLoader::import(path_list)] ROS node spinner started (0 thread).
+0.108 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'rosnode' from 'rtt_rosnode'
+0.108 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_roscomm ...
+0.108 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_roscomm/plugins ...
+0.109 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'rosservice_registry' from 'rtt_rosservice_registry'
+0.110 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'rostopic' from 'rtt_rostopic_service'
+0.110 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Service 'rosservice' from 'rtt_rosservice'
+0.110 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_std_msgs ...
+0.110 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_std_msgs/types ...
+0.120 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-std_msgs.
+0.120 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'rtt-ros-std_msgs-transport' from 'rtt-std_msgs-ros-transport'
+0.177 [ Info   ][TypekitRepository::Import] Loading Typekit ros-std_msgs.
+0.177 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Bool
+0.178 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Byte
+0.178 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/ByteMultiArray
+0.178 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Char
+0.178 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/ColorRGBA
+0.178 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Duration
+0.178 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Empty
+0.178 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Float32
+0.179 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Float32MultiArray
+0.179 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Float64
+0.179 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Float64MultiArray
+0.179 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Header
+0.179 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int16
+0.179 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int16MultiArray
+0.179 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int32
+0.180 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int32MultiArray
+0.180 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int64
+0.180 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int64MultiArray
+0.180 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int8
+0.180 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int8MultiArray
+0.180 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/MultiArrayDimension
+0.180 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/MultiArrayLayout
+0.181 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/String
+0.181 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Time
+0.181 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt16
+0.181 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt16MultiArray
+0.181 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt32
+0.182 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt32MultiArray
+0.182 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt64
+0.182 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt64MultiArray
+0.182 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt8
+0.182 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt8MultiArray
+0.182 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'ros-std_msgs' from 'rtt-std_msgs-typekit'
+0.182 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_std_msgs/plugins ...
+0.186 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-primitives.
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for array
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for bool
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for duration
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for float32
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for float64
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for int16
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for int32
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for int64
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for int8
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for rt_string
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for string
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for time
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for uint16
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for uint32
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for uint64
+0.187 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for uint8
+0.187 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'rtt-ros-primitives-transport' from 'rtt-ros-primitives-transport'
+0.187 [ Info   ][ComponentLoader::import(path_list)] Importing directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos/gnulinux/rtt_motion_control_msgs ...
+0.187 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos/gnulinux/rtt_motion_control_msgs/types ...
+0.191 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-motion_control_msgs.
+0.191 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'rtt-ros-motion_control_msgs-transport' from 'rtt-motion_control_msgs-ros-transport'
+0.213 [ Info   ][TypekitRepository::Import] Loading Typekit ros-motion_control_msgs.
+0.214 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /motion_control_msgs/JointAccelerations
+0.214 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /motion_control_msgs/JointEfforts
+0.215 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /motion_control_msgs/JointPositions
+0.215 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /motion_control_msgs/JointVelocities
+0.215 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'ros-motion_control_msgs' from 'rtt-motion_control_msgs-typekit'
+0.215 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_std_srvs ...
+0.215 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_std_srvs/plugins ...
+0.217 [ Info   ][ComponentLoader::import(path_list)] Successfully registered ROS service factory for "std_srvs/Empty".
+0.217 [ Info   ][ComponentLoader::import(path_list)] Successfully registered ROS service factory for "std_srvs/SetBool".
+0.217 [ Info   ][ComponentLoader::import(path_list)] Successfully registered ROS service factory for "std_srvs/Trigger".
+0.217 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'rtt_std_srvs_ros_service_proxies' from 'rtt_std_srvs_rosservice_proxies'
+0.217 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/kinetic/lib/orocos/gnulinux/kdl_typekit ...
+0.225 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'KDLTypekitTestComponent'
+0.225 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/kdl_typekit/types ...
+0.258 [ Info   ][TypekitRepository::Import] Loading Typekit KDL.
+0.263 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'KDL' from 'kdl_typekit'
+0.265 [ Info   ][TypekitRepository::Import] Loading Transport CORBA://KDL.
+0.265 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Frame
+0.265 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Jacobian
+0.265 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.JntArray
+0.265 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Rotation
+0.265 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Twist
+0.265 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Vector
+0.265 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for KDL.Wrench
+0.265 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'kdl-corba-types' from 'kdl-transport-corba'
+0.267 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://KDL.
+0.267 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for KDL.Frame
+0.267 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for KDL.Jacobian
+0.267 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for KDL.JntArray
+0.267 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for KDL.Rotation
+0.267 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for KDL.Twist
+0.267 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for KDL.Vector
+0.267 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for KDL.Wrench
+0.267 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'kdl-mqueue-types' from 'kdl-transport-mqueue'
+0.267 [ Info   ][ComponentLoader::import(path_list)] Importing directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/etasl-rtt/devel/lib/orocos/gnulinux/etasl_rtt ...
+0.373 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/etasl-rtt/devel/lib/orocos/gnulinux/etasl_rtt/libetasl_rtt-gnulinux.so'
+0.374 [ Info   ][ROSService::import("etasl_rtt")] Loaded plugins from ROS package "etasl_rtt" and its dependencies.
+0.387 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_rospack ...
+0.387 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_rospack/plugins ...
+0.388 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'rospack' from 'rtt_rospack'
+0.388 [ Info   ][ROSService::import("rtt_rospack")] Loaded plugins from ROS package "rtt_rospack" and its dependencies.
+0.409 [ Info   ][ComponentLoader::import(path_list)] Importing directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/etasl-rtt/devel/lib/orocos/gnulinux/etasl_solver_qpoases ...
+0.415 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/etasl-rtt/devel/lib/orocos/gnulinux/etasl_solver_qpoases/libetasl_solver_qpoases-gnulinux.so'
+0.415 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'etasl_solver_qpoases'
+0.415 [ Info   ][ROSService::import("etasl_solver_qpoases")] Loaded plugins from ROS package "etasl_solver_qpoases" and its dependencies.
+0.416 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='solver'
+0.416 [ Info   ][solver] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10968 ).
+0.416 [ Info   ][loadComponent] Adding solver as new peer:  OK.
+0.431 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_geometry_msgs ...
+0.431 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_geometry_msgs/types ...
+0.444 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-geometry_msgs.
+0.444 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'rtt-ros-geometry_msgs-transport' from 'rtt-geometry_msgs-ros-transport'
+0.501 [ Info   ][TypekitRepository::Import] Loading Typekit ros-geometry_msgs.
+0.502 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Accel
+0.502 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/AccelStamped
+0.502 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/AccelWithCovariance
+0.502 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/AccelWithCovarianceStamped
+0.502 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Inertia
+0.503 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/InertiaStamped
+0.503 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Point
+0.503 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Point32
+0.503 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PointStamped
+0.503 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Polygon
+0.503 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PolygonStamped
+0.503 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Pose2D
+0.504 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Pose
+0.504 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PoseArray
+0.504 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PoseStamped
+0.504 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PoseWithCovariance
+0.504 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PoseWithCovarianceStamped
+0.504 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Quaternion
+0.505 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/QuaternionStamped
+0.505 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Transform
+0.505 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/TransformStamped
+0.505 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Twist
+0.505 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/TwistStamped
+0.505 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/TwistWithCovariance
+0.506 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/TwistWithCovarianceStamped
+0.506 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Vector3
+0.506 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Vector3Stamped
+0.506 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Wrench
+0.506 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/WrenchStamped
+0.506 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'ros-geometry_msgs' from 'rtt-geometry_msgs-typekit'
+0.506 [ Info   ][ComponentLoader::import(path_list)] Importing directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_sensor_msgs ...
+0.506 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_sensor_msgs/types ...
+0.564 [ Info   ][TypekitRepository::Import] Loading Typekit ros-sensor_msgs.
+0.568 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'ros-sensor_msgs' from 'rtt-sensor_msgs-typekit'
+0.579 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-sensor_msgs.
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/BatteryState
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/CameraInfo
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/ChannelFloat32
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/CompressedImage
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/FluidPressure
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/Illuminance
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/Image
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/Imu
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/JointState
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/Joy
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/JoyFeedback
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/JoyFeedbackArray
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/LaserEcho
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/LaserScan
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/MagneticField
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/MultiDOFJointState
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/MultiEchoLaserScan
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/NavSatFix
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/NavSatStatus
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/PointCloud
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/PointCloud2
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/PointField
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/Range
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/RegionOfInterest
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/RelativeHumidity
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/Temperature
+0.579 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/TimeReference
+0.579 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'rtt-ros-sensor_msgs-transport' from 'rtt-sensor_msgs-ros-transport'
+0.579 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /opt/ros/kinetic/lib/orocos/gnulinux/rtt_sensor_msgs/plugins ...
+0.580 [ Info   ][ComponentLoader::import(path_list)] Successfully registered ROS service factory for "sensor_msgs/SetCameraInfo".
+0.580 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'rtt_sensor_msgs_ros_service_proxies' from 'rtt_sensor_msgs_rosservice_proxies'
+0.580 [ Info   ][ComponentLoader::import(path_list)] Importing directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/etasl-rtt/devel/lib/orocos/gnulinux/etasl_iohandler_jointstate ...
+0.592 [ Info   ][ComponentLoader::import(path_list)] Loaded multi component library '/media/ruixuan/Volume/ruixuan/Documents/etasl/ws/etasl-rtt/devel/lib/orocos/gnulinux/etasl_iohandler_jointstate/libetasl_iohandler_jointstate-gnulinux.so'
+0.592 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'Etasl_IOHandler_Jointstate'
+0.593 [ Info   ][ROSService::import("etasl_iohandler_jointstate")] Loaded plugins from ROS package "etasl_iohandler_jointstate" and its dependencies.
+0.593 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='jointstate'
+0.593 [ Info   ][jointstate] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10969 ).
+0.593 [ Info   ][loadComponent] Adding jointstate as new peer:  OK.
+0.609 [ Info   ][ROSService::import("etasl_rtt")] Loaded plugins from ROS package "etasl_rtt" and its dependencies.
+0.609 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='etaslcore'
+0.609 [ Info   ][etaslcore] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10970 ).
+0.609 [ Info   ][loadComponent] etasl_iohandler_rtt constructed
+0.611 [ Info   ][loadComponent] etasl_rtt::constructor
+0.614 [ Info   ][loadComponent] Adding etaslcore as new peer:  OK.
+0.627 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=4294967295, with name='etaslcore'
+0.627 [ Info   ][etaslcore] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 4095 and period 0.001 (PID= 10971 ).
+0.627 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='simrobot'
+0.627 [ Info   ][simrobot] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10972 ).
+0.627 [ Info   ][loadComponent] Adding simrobot as new peer:  OK.
+0.630 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=4294967295, with name='simrobot'
+0.630 [ Info   ][simrobot] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 4095 and period 0.001 (PID= 10973 ).
+0.630 [ Info   ][connect] Connected Port etaslcore.jointvel to  simrobot.jointvel.
+0.630 [ Info   ][connect] Connected Port simrobot.jointpos to  etaslcore.jointpos.
+0.632 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Reporter'
+0.632 [ Info   ][Reporter] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10974 ).
+0.632 [ Info   ][loadComponent] Adding Reporter as new peer:  OK.
+0.632 [ Info   ][ReportingComponent] Not buffering of data flow connections. You may miss samples.
+0.632 [ Info   ][ReportingComponent] Monitoring OutputPort jointvel : ok.
+0.632 [ Info   ][ReportingComponent] Not buffering of data flow connections. You may miss samples.
+0.632 [ Info   ][ReportingComponent] Monitoring OutputPort tf_pose : ok.
+0.633 [ Info   ][ReportingComponent] Not buffering of data flow connections. You may miss samples.
+0.633 [ Info   ][ReportingComponent] Monitoring OutputPort path_coordinate : ok.
+0.633 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Supervisor'
+0.633 [ Info   ][Supervisor] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10975 ).
+0.633 [ Info   ][loadComponent] Adding Supervisor as new peer:  OK.
+0.637 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=4294967295, with name='Supervisor'
+0.637 [ Info   ][Supervisor] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 4095 and period 0.001 (PID= 10976 ).
+0.638 [ Info   ][ComponentLoader::import(package, path_list)] Component package 'kdl_typekit' already imported.
+0.658 [ Info   ][ComponentLoader::import(path_list)] Importing directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos/gnulinux/ati_iface ...
+0.670 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'ati::AtiIface'
+0.670 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='AtiIface'
+0.670 [ Info   ][AtiIface] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10977 ).
+0.670 [ Info   ][loadComponent] [AtiIface] Constructed
+0.670 [ Info   ][loadComponent] Adding AtiIface as new peer:  OK.
+0.670 [ Info   ][ComponentLoader::import(path_list)] Importing directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos/gnulinux/force_trigger ...
+0.678 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'forcetrigger::ForceTrigger'
+0.678 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='ForceTrigger'
+0.678 [ Info   ][ForceTrigger] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10978 ).
+0.678 [ Info   ][loadComponent] [ForceTrigger] Constructed
+0.678 [ Info   ][loadComponent] Adding ForceTrigger as new peer:  OK.
+0.679 [ Info   ][ComponentLoader::import(path_list)] Importing directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos/gnulinux/gui_connector ...
+0.686 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'guiconnector::GuiConnector'
+0.686 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='GuiConnector'
+0.686 [ Info   ][GuiConnector] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10979 ).
+0.686 [ Info   ][loadComponent] [GuiConnector] Constructed
+0.686 [ Info   ][loadComponent] Adding GuiConnector as new peer:  OK.
+0.686 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=4294967295, with name='AtiIface'
+0.686 [ Info   ][AtiIface] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 4095 and period 0.001 (PID= 10980 ).
+0.687 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] [AtiIface] Configured
+0.687 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=4294967295, with name='ForceTrigger'
+0.687 [ Info   ][ForceTrigger] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 4095 and period 0.001 (PID= 10981 ).
+0.687 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] [ForceTrigger] Configured
+0.687 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=4294967295, with name='GuiConnector'
+0.687 [ Info   ][GuiConnector] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 4095 and period 0.001 (PID= 10982 ).
+0.687 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] [GuiConnector] Configured
+0.687 [ Info   ][ComponentLoader::import(path_list)] Importing directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos/gnulinux/soem_master ...
+0.690 [ Info   ][ComponentLoader::import(path_list)] Loaded component type 'soem_master::SoemMasterComponent'
+0.690 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos/gnulinux/soem_master/plugins ...
+0.690 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'soem-plugin' from 'soem_plugin'
+0.690 [ Info   ][ComponentLoader::import(path_list)] Importing directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos/gnulinux/soem_beckhoff_drivers ...
+0.691 [ Info   ][ComponentLoader::import(path_list)] Loading typekit libraries from directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos/gnulinux/soem_beckhoff_drivers/types ...
+0.743 [ Info   ][TypekitRepository::Import] Loading Typekit ros-soem_beckhoff_drivers.
+0.747 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'ros-soem_beckhoff_drivers' from 'rtt-soem_beckhoff_drivers-typekit'
+0.758 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-soem_beckhoff_drivers.
+0.758 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /soem_beckhoff_drivers/AnalogMsg
+0.758 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /soem_beckhoff_drivers/CommMsg
+0.758 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /soem_beckhoff_drivers/CommMsgBig
+0.758 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /soem_beckhoff_drivers/DigitalMsg
+0.758 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /soem_beckhoff_drivers/EncoderInMsg
+0.758 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /soem_beckhoff_drivers/EncoderMsg
+0.758 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /soem_beckhoff_drivers/EncoderOutMsg
+0.758 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /soem_beckhoff_drivers/PSUMsg
+0.758 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT TypeKit/Transport 'rtt-ros-soem_beckhoff_drivers-transport' from 'rtt-soem_beckhoff_drivers-ros-transport'
+0.758 [ Info   ][ComponentLoader::import(path_list)] Loading plugin libraries from directory /media/ruixuan/Volume/ruixuan/Documents/etasl/ws/my_new_workspace/devel/lib/orocos/gnulinux/soem_beckhoff_drivers/plugins ...
+0.769 [ Info   ][SoemDriverFactor] Registering driver for EL6022
+0.769 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'libsoem_el6022-gnulinux.so' from 'soem_el6022'
+0.784 [ Info   ][SoemDriverFactor] Registering driver for EL3104
+0.784 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'libsoem_el3104-gnulinux.so' from 'soem_el3104'
+0.794 [ Info   ][SoemDriverFactor] Registering driver for EL5101
+0.794 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'libsoem_el5101-gnulinux.so' from 'soem_el5101'
+0.803 [ Info   ][SoemDriverFactor] Registering driver for EL1124
+0.803 [ Info   ][SoemDriverFactor] Registering driver for EL1144
+0.803 [ Info   ][SoemDriverFactor] Registering driver for EL1004
+0.803 [ Info   ][SoemDriverFactor] Registering driver for EL1008
+0.803 [ Info   ][SoemDriverFactor] Registering driver for EL1098
+0.803 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'libsoem_el1xxx-gnulinux.so' from 'soem_el1xxx'
+0.820 [ Info   ][SoemDriverFactor] Registering driver for EL3052
+0.820 [ Info   ][SoemDriverFactor] Registering driver for EL3062
+0.820 [ Info   ][SoemDriverFactor] Registering driver for EL3004
+0.820 [ Info   ][SoemDriverFactor] Registering driver for EL3008
+0.820 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'libsoem_el30xx-gnulinux.so' from 'soem_el30xx'
+0.835 [ Info   ][SoemDriverFactor] Registering driver for EL4002
+0.835 [ Info   ][SoemDriverFactor] Registering driver for EL4004
+0.835 [ Info   ][SoemDriverFactor] Registering driver for EL4008
+0.835 [ Info   ][SoemDriverFactor] Registering driver for EL4022
+0.835 [ Info   ][SoemDriverFactor] Registering driver for EL4032
+0.835 [ Info   ][SoemDriverFactor] Registering driver for EL4034
+0.835 [ Info   ][SoemDriverFactor] Registering driver for EL4038
+0.835 [ Info   ][SoemDriverFactor] Registering driver for EL4134
+0.835 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'libsoem_el4xxx-gnulinux.so' from 'soem_el4xxx'
+0.847 [ Info   ][SoemDriverFactor] Registering driver for EL2002
+0.847 [ Info   ][SoemDriverFactor] Registering driver for EL2004
+0.847 [ Info   ][SoemDriverFactor] Registering driver for EL2008
+0.847 [ Info   ][SoemDriverFactor] Registering driver for EL2034
+0.847 [ Info   ][SoemDriverFactor] Registering driver for EL2124
+0.847 [ Info   ][SoemDriverFactor] Registering driver for EL2612
+0.847 [ Info   ][SoemDriverFactor] Registering driver for EL2624
+0.847 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'libsoem_el2xxx-gnulinux.so' from 'soem_el2xxx'
+0.860 [ Info   ][SoemDriverFactor] Registering driver for EL3102
+0.860 [ Info   ][ComponentLoader::import(path_list)] Loaded RTT Plugin 'libsoem_el3102-gnulinux.so' from 'soem_el3102'
+0.860 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='soem_master'
+0.860 [ Info   ][soem_master] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10983 ).
+0.860 [ Info   ][loadComponent] Adding soem_master as new peer:  OK.
+0.860 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_RT, priority=50, CPU affinity=4294967295, with name='soem_master'
+0.860 [ Info   ][soem_master] Thread created with scheduler type 'ORO_SCHED_RT', priority 50, cpu affinity 4095 and period 0.001 (PID= 10984 ).
+0.880 [ Info   ][soem_master] ec_init on eth0 succeeded.
+0.928 [ ERROR  ][soem_master] Configuration of slaves failed!!!
+0.928 [ ERROR  ][soem_master] Could not initialize master on eth1
+0.929 [ ERROR  ][connect] No such service: 'Slave_1002' while looking for port 'soem_master.Slave_1002.values'
+0.929 [ ERROR  ][connect] No such service: 'Slave_1003' while looking for port 'soem_master.Slave_1003.values'
+0.929 [ Info   ][connect] Connected Port AtiIface.out_W_ati to  etaslcore.force_sensor.
+0.930 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='RosPublishActivity'
+0.930 [ Info   ][RosPublishActivity] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 10986 ).
+0.930 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] Created output stream for output port out_W_ati
+0.930 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] [AtiIface] Started
+0.931 [ Info   ][connect] Connected Port AtiIface.out_W_ati to  ForceTrigger.in_W_ati.
+0.931 [ ERROR  ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] No such port: 'in_fusion_' while looking for port 'ForceTrigger.in_fusion_'
+0.932 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] Created output stream for output port out_contact
+0.932 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] Created output stream for output port out_net_W
+0.933 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] [ForceTrigger] Started
+0.935 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] Created input stream for input port in_ifnewpose_message
+0.937 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] Created input stream for input port in_pose_message
+0.938 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] Created output stream for output port out_write_finish
+0.938 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] Created output stream for output port out_pose_message
+0.938 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] [GuiConnector] Started
+0.940 [ Warning][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] cannot find modules 'rfsm2uml' or 'rfsm2tree'. State machine will not be printed
+0.941 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='eventEcho'
+0.941 [ Info   ][Thread] solverA qpOases solver is created and set in etaslcore
+0.941 [ Info   ][eventEcho] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 11003 ).
+0.941 [ Info   ][loadComponent] Adding eventEcho as new peer:  OK.
+0.947 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] Created input stream for input port event_in
+0.947 [ Info   ][connect] Connected Port Supervisor.events to  eventEcho.event_out.
+0.948 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='pose_manager'
+0.948 [ Info   ][pose_manager] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 11011 ).
+0.948 [ Info   ][loadComponent] Adding pose_manager as new peer:  OK.
+0.949 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] etasl_rtt::configure()
+0.949 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] solver_type is qpOASES_velocity_resolution
+0.949 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] etasl_rtt::initialize()
+0.949 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] etasl_rtt::startHook()
+0.949 [ Info   ][/opt/ros/kinetic/bin/rttlua-gnulinux::main()] etasl_rtt::stopHook() finished  !
+0.951 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+0.951 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+0.952 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=50, CPU affinity=4294967295, with name='pose_manager'
+0.952 [ Warning][Thread] Forcing priority (50) of thread with SCHED_OTHER policy to 0.
+0.952 [ Info   ][pose_manager] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 0, cpu affinity 4095 and period 0 (PID= 11012 ).
+0.952 [ Info   ][connect] Connected Port etaslcore.tf_pose to  pose_manager.tf_pose.
+0.953 [ Info   ][connect] Connected Port pose_manager.commands to  eventEcho.event_out.
+0.954 [ Info   ][connect] Connected Port etaslcore.eventPort to  Supervisor.events.
+0.956 [ Info   ][Service::getOperation] Created output stream for output port joint_state
+0.956 [ Info   ][Service::getOperation] etasl_rtt::configure()
+0.956 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+0.956 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+0.957 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+2.953 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+2.954 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+2.954 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+2.986 [ Info   ][Service::getOperation] etasl_rtt::configure()
+2.986 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+2.986 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+2.991 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+10.939 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+10.942 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+10.943 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+10.949 [ Info   ][Service::getOperation] etasl_rtt::configure()
+10.949 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+10.950 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+10.950 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+12.319 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+12.321 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+12.323 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+12.341 [ Info   ][Service::getOperation] etasl_rtt::configure()
+12.341 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+12.342 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+12.351 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+14.868 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+14.871 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+14.872 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+14.892 [ Info   ][Service::getOperation] etasl_rtt::configure()
+14.892 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+14.892 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+14.902 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+18.041 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+18.044 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+18.049 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+18.078 [ Info   ][Service::getOperation] etasl_rtt::configure()
+18.078 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+18.078 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+18.094 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+20.202 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+20.205 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+22.208 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+22.232 [ Info   ][Service::getOperation] etasl_rtt::configure()
+22.232 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+22.232 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+22.248 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+24.808 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+24.811 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+24.813 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+24.838 [ Info   ][Service::getOperation] etasl_rtt::configure()
+24.838 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+24.838 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+24.849 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+27.733 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+27.736 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+29.741 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+29.763 [ Info   ][Service::getOperation] etasl_rtt::configure()
+29.763 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+29.763 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+29.774 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+32.957 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+32.961 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+32.961 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+32.991 [ Info   ][Service::getOperation] etasl_rtt::configure()
+32.991 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+32.991 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+33.013 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+35.121 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+35.125 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+37.128 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+37.161 [ Info   ][Service::getOperation] etasl_rtt::configure()
+37.161 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+37.161 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+37.178 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+39.737 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+39.740 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+39.741 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+39.762 [ Info   ][Service::getOperation] etasl_rtt::configure()
+39.762 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+39.762 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+39.771 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+42.620 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+42.623 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+44.627 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+44.645 [ Info   ][Service::getOperation] etasl_rtt::configure()
+44.646 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+44.646 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+44.655 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+47.894 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+47.897 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+47.897 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+47.923 [ Info   ][Service::getOperation] etasl_rtt::configure()
+47.923 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+47.923 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+47.941 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+50.048 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+50.051 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+52.053 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+52.076 [ Info   ][Service::getOperation] etasl_rtt::configure()
+52.076 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+52.077 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+52.093 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+54.651 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+54.654 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+54.656 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+54.677 [ Info   ][Service::getOperation] etasl_rtt::configure()
+54.677 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+54.677 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+54.688 [ Info   ][Service::getOperation] etasl_rtt::startHook()
+57.670 [ Info   ][Service::getOperation] etasl_rtt::stopHook() finished  !
+57.672 [ Info   ][Service::getOperation] etasl_rtt::cleanupHook()
+59.675 [ Info   ][Service::getOperation] solverA qpOases solver is created and set in etaslcore
+59.682 [ Info   ][Service::getOperation] etasl_rtt::configure()
+59.682 [ Info   ][Service::getOperation] solver_type is qpOASES_velocity_resolution
+59.682 [ Info   ][Service::getOperation] etasl_rtt::initialize()
+59.683 [ Info   ][Service::getOperation] etasl_rtt::startHook()

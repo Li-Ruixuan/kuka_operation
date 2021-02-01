@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+
+  <param name="robot_description" command="$(find xacro)/xacro '$(find probe_a_scan)/robot_description/urdf/lwr/kuka_a_mode.urdf'" />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find probe_a_scan)/robot_description/environment_config.rviz"/>
+  
+  <param name="xml_button_file" type="str" value="$(find probe_a_scan)/configuration/buttons_gui_spec.xml" />
+  <node name="event_firer" pkg="python_gui" type="gui_sender.py"  />
+  
+  <param name="pose_file_name" type="str" value="$(find probe_a_scan)/poses/probe_poses.json" />
+	<node name="marker_pub" pkg="pose_probe_visualization" type="marker_pub.py"  />
+
+</launch>
