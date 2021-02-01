@@ -1,0 +1,19 @@
+<package>
+  <name>force_trigger</name>
+  <version>1.0.0</version>
+  <description>This package contains the components of the force_sensor_probe package</description> 
+
+  <license>Unknown</license>
+
+  <url type="website"></url>
+  <!-- <url type="bugtracker"></url> -->
+ <maintainer email="jane.doe@example.com">Jane Doe</maintainer>
+
+  <build_depend>rtt</build_depend>
+  <build_depend>orogen</build_depend>
+  <run_depend>rtt</run_depend>
+
+  <export>
+
+  </export>
+</package>
